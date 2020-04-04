@@ -1,0 +1,17 @@
+{
+    "name": "RGBD Scenes V13",
+    "path_dataset": "dataset/rgbd-scenes-v2-scene_13",
+    "path_intrinsic": "dataset/rgbd-scenes-v2-scene_13/camera-intrinsics.json",
+    "max_depth": 3.0,
+    "voxel_size": 0.05,
+    "max_depth_diff": 0.07,
+    "preference_loop_closure_odometry": 0.1,
+    "preference_loop_closure_registration": 5.0,
+    "tsdf_cubic_size": 3.0,
+    "object_tsdf_cubic_size": 3.0,
+    "object_mask_color_threshold": 200,
+    "icp_method": "color",
+    "global_registration": "ransac",
+    "python_multi_threading": true
+}
+
